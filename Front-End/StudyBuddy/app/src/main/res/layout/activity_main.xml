@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="174dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="40dp"
+        android:text="Study Buddy"
+        android:textAlignment="center"
+        android:textColor="#673AB7"
+        android:textSize="60sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSaveUser"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:text="Save User"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonFindSession"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonFindSession"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/buttonFindSession"
+        android:layout_width="170dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:text="Find Session"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSaveUser" />
+
+    <Button
+        android:id="@+id/buttonCreateSession"
+        android:layout_width="170dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="24sp"
+        android:text="Create A New Session"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="@+id/buttonFindSession"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonFindSession"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFindSession" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
