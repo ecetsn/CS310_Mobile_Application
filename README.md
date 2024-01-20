@@ -1,6 +1,6 @@
 This is a project developed in Fall 2023 semester, for CS310 - Mobile Application Development course in Sabancı University. Detailed information can be found in the project proposal file in the same repository. The Github profiles for the contributors of this project are listed below:
 
-https://github.com/aygungoktug
+https://github.com/goktug-aygun
 https://github.com/ecetsn
 https://github.com/EfeBallar
 https://github.com/mertrodop
