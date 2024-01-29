@@ -1,8 +1,10 @@
 ## This is a project developed in Fall 2023 semester, for CS310 - Mobile Application Development course in Sabancı University. 
-> Detailed information can be found in the project proposal file in the same repository. The Github profiles for the contributors of this project are listed below:
 
 ### Project Overview:
 The Study Buddy App aims to facilitate the connection between students who are studying similar courses, enabling them to collaborate and learn together. With the help of this application, students will be able to arrange study sessions, find and connect with relevant study partners, and work on projects and tasks for their classes. The application aims to improve students' academic performance and encourage productive peer knowledge exchange by creating a collaborative learning environment.
+
+> Detailed information can be found in the project proposal file in the same repository. The Github profiles for the contributors of this project are listed below
+
 
 - https://github.com/goktug-aygun
 - https://github.com/ecetsn
